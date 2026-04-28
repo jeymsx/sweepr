@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(node_modules/.bin/electron --version)",
+      "Bash(netstat -ano)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/electron'\\)\\)\")",
+      "Bash(node_modules/electron/dist/electron.exe --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
